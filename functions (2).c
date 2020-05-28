@@ -68,7 +68,7 @@ int autotest_2(void){
     int k;
     char word[512];
     k=search("myth.txt", word);
-    if(k == -1){
+    if(k == 0){
         return 0;
     }
     else{
